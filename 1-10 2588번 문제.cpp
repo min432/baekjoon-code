@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-	int a, b, c, d, e;
-	cin >> a >> b;
+	int a, b, c, d, e;                              #출력은 cout<< 으로, 입력은 cin>> 으로
+	cin >> a >> b;                                  # cout<<endl 을 통해 줄바꿈
 	c = b % 10;
 	d = (b % 100) / 10;
 	e = b / 100;
