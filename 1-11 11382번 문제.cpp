@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	long long A, B, C;
+	long long A, B, C;                      // short > int >long 순서
 	cin >> A >> B >> C;
 	cout << A + B + C << "\n";
 	return 0;
