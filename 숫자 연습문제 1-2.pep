@@ -3,8 +3,8 @@ pep/8 연습문제
 숫자 2개를 입력받고, 그 합이 0 미만이면 “less than 0”를 출력하는 프로그램을 작성해보자
 
 정답 예시:
-BR input1
-block1: .BLOCK 2
+BR input1                                        # 입력받은 두 개의 숫자의 합을 BR-- 조건분기문을 이용해서 0과 비교
+block1: .BLOCK 2                                               
 block2: .BLOCK 2
 ascii: .ASCII "less than 0 \x00"
 input1: DECI block1, d
