@@ -6,9 +6,9 @@ using namespace std;
 
 int main() {
     string a;
-    cin >> a;
-
-    cout << a << "??!" << endl;
+    cin >> a;                    // string 은 문자열을 다룰때 사용된다. #include <string> 을 앞에 서주는게 원칙
+                                    컴파일러에 따라 이 헤더파일을 안써줘도 작동될때가 있는데(이 코드처럼) 그건 일부일뿐이므로
+    cout << a << "??!" << endl;     제대로 원칙적으로 #include <string> 을 앞에 꼭 써주자
 
     return 0;
 }
