@@ -5,8 +5,8 @@
 
 int main()
 {
-    std::cout << "Hello World!";
-}
+    std::cout << "Hello World!";                      // using namespace std 처럼 이름공간을 초반에 명시해놓지 않으면
+}                                                        뒤에서 std:: 처럼 범위지정연산자를 계속 써줘야함
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
